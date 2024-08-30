@@ -1,0 +1,5 @@
+data/
+log/
+logs/
+*__pycache__/
+*__init__.py
