@@ -64,7 +64,7 @@ Please run the following commands to test on the RueMadame data:
 python test_straightpcf.py --niters=2 --seed_k=6 --seed_k_alpha=10 --dataset='RueMadame' --resolution='unknown_res' --noise='unknown_noise';
 ```
 
-You should get the results on the terminal. The evaluation code is within ```./utils/valuate.py```. The output from the network is stored at ```./data/results```.
+You should get the results on the terminal. The evaluation code is within ```./utils/evaluate.py```. The output from the network is stored at ```./data/results```.
 
 ## Train the network
 Training the full network is a 3 step process:
