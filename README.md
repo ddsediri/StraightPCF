@@ -54,6 +54,16 @@ python test_straightpcf.py --niters=3 --seed_k=6 --seed_k_alpha=1 --dataset='PCN
 python test_straightpcf.py --niters=3 --seed_k=6 --seed_k_alpha=1 --dataset='PCNet' --resolution='50000_poisson' --noise='0.03';
 ```
 
+Please run the following commands to test on the Kinect data:
+```
+python test_straightpcf.py --niters=2 --tot_its=1 --seed_k=6 --seed_k_alpha=1 --dataset='Kinect_v1' --resolution='unknown_res' --noise='unknown_noise';
+```
+
+Please run the following commands to test on the RueMadame data:
+```
+python test_straightpcf.py --niters=2 --seed_k=6 --seed_k_alpha=10 --dataset='RueMadame' --resolution='unknown_res' --noise='unknown_noise';
+```
+
 You should get the results on the terminal. The evaluation code is within ```./utils/valuate.py```. The output from the network is stored at ```./data/results```.
 
 ## Train the network

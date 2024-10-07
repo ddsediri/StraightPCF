@@ -22,7 +22,7 @@ class StraightPCF(nn.Module):
         self.args = args
         # geometry
         self.frame_knn = args.frame_knn
-        self.tot_its = 3
+        self.tot_its = args.tot_its
         self.num_train_points = args.num_train_points
         # score-matching
         self.dsm_sigma = args.dsm_sigma
